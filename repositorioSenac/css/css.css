@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+h2{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    position: relative; 
+    left: 525px;
+    bottom: 20px;
+}
+h3{
+    background-color: plum;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 775px;
+    bottom: 600px;
+}
+h4{
+    background-color: orangered;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 800px;
+    bottom: 895px;
+}
+h5{
+    background-color: rgb(225, 0, 255);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 850px;
+    bottom: 1115px;
+}
