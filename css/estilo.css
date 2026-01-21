@@ -1,0 +1,73 @@
+/*Customização do pseudo-classe*/
+p{
+    color: blue;
+}
+h1{
+    color: red;
+}
+
+a{
+    background-color: #0b2555;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid red 2px;
+    width: 5000px;
+}
+
+/*Comportamento do link a ser clicaco*/
+
+a:link{
+    color: #6cff00;
+}
+/*Comportamento do link após ser clicado*/
+a:visited{
+    color:#000;
+    background-color: yellow;
+}
+
+/*Comportamento de passar o mouse sobre*/
+a:hover{
+    background-color: chartreuse;
+    color: blue;
+}
+
+/*Comportamento de ativação*/
+a:active{
+    background-color: #fc0e0e;
+    color: black;
+}
+button:link{
+    color: #6cff00
+}
+button:visited{
+    color: black;
+    background-color: yellow;
+}
+button:hover{
+    background-color: aquamarine;
+    color: #0b2555;
+}
+/*Trabalhando com pseudo-elemento*/
+p::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+p::first-letter{
+    color: darkmagenta;
+    font-size: 50pt;
+}
+h3::before{
+    content: url(https://cdn-icons-png.flaticon.com/512/2015/2015046.png);
+}
+h3::after{
+    content: url(https://cdn-icons-png.flaticon.com/512/2015/2015046.png);
+}
+::marker{
+    color: #6cff00;
+}
+::selection{
+    color: darkorange;
+    background-color: black;
+}
