@@ -1,62 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
+body{
+    background-color: #F1F1F1;
 }
-
-.container {
-    width: 90%;
-    margin: auto;
+header{
+    margin: 0px 480px 0px 415px;
 }
-
-.subtitulo {
-    color: #555;
-}
-
-/* Menu com Flexbox */
-.menu {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0;
-}
-
-.menu button {
-    padding: 8px 15px;
-    border: none;
-    background: #ccc;
-    color: #000;
-    cursor: pointer;
-}
-
-.menu .ativo {
-    background: #444;
-    color: #fff;
-}
-
-/* Cards com Flexbox */
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.card {
-    background: #fff;
-    width: calc(33.33% - 20px);
+.card{
+    width: 290px;
+    height: 350px;
+    background-color: white;
     padding: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 15px;
+
+}
+img{
+    width: 290px;
+    height: 150px;
+}
+#Carros{
     display: flex;
-    flex-direction: column;
+    position: relative;
+    left: 400px;
 }
-
-.card img {
-    width: 100%;
+#Frutas{
+    display: flex;
+    position: relative;
+    left: 400px;
 }
-
-.card h3 {
-    margin: 10px 0 5px;
+#Pessoas{
+    display: flex;
+    position: relative;
+    left: 400px;
 }
-
-.card p {
-    font-size: 14px;
-    color: #555;
+#actived{
+    background-color: #515151;
+    padding: 15px;
+}
+button{
+    background-color: #909090;
+    padding: 15px;
+    color: white;
+    border: none;
 }
