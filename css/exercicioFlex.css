@@ -1,14 +1,19 @@
 body{
     background-color: #F1F1F1;
+    max-width: 1000px;
 }
 header{
-    margin: 0px 480px 0px 415px;
+    margin-left: 405px;
 }
 .card{
     width: 290px;
     height: 350px;
     background-color: white;
     padding: 10px;
+    margin: 15px;
+
+}
+nav{
     margin: 15px;
 
 }
@@ -35,9 +40,14 @@ img{
     background-color: #515151;
     padding: 15px;
 }
-button{
+a{
     background-color: #909090;
     padding: 15px;
     color: white;
     border: none;
+    margin: 10px;
+    text-decoration: none;
+}
+.Butão:hover {
+    background-color: #515151;
 }
